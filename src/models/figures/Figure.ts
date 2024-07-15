@@ -9,6 +9,7 @@ export enum FigureNames {
     PAWN = "Пешка",
     QUEEN = "Ферзь",
     BISHOP = "Слон",
+    ROOK = "Ладья",
 }
 
 export class Figure {
@@ -17,7 +18,6 @@ export class Figure {
     cell: Cell;
     name: FigureNames;
     id: number;
-
 
     constructor(color: Colors, cell: Cell) {
         this.color = color;

@@ -26,6 +26,10 @@
   align-items: center;
 }
 
+.cell img {
+  max-width: 80%;
+}
+
 .black {
   background-color: deepskyblue;
 }
